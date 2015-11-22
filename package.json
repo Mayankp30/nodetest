@@ -1,0 +1,12 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u bdd -R spec -t 500 --recursive",
+      "watch": "mocha -u bdd -R spec -t 500 --recursive --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
